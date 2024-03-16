@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 250, 250);
+   
+    
+}
+.card{
+    display: flex;
+  align-items: center;
+  background-color: rgb(242, 247, 247);
+  height: 310px;
+  width:300px ;
+  position: relative;
+  background: transparent;
+  box-shadow: 3px 3px 3px;
+  backdrop-filter:blur(20px);
+}
+.row{
+    align-items: center;
+  justify-content: center;
+
+  display: flex;
+  min-height: 100vh;
+
+}
+ul {
+   display: flex;
+   justify-content: space-between;
+    
+}
+ 
+   
+
+
+input{
+    border-radius: 7px;
+}
+.container{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2019/06/Beautiful-romantic-image-night-beach-palm-tree-full-moon-clouds-Reflection-of-moon-in-the-sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+  
+    
+   
+   
+}
+.col{
+    color: rgb(233, 239, 233);
+    text-decoration: none;
+}
+.bold{
+    font-size:large;
+    color: rgb(249, 245, 245);
+}
+.reg{
+content: "";
+color: aqua;
+}
+
+.col:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    background: greenyellow;
+    color: black;
+}
